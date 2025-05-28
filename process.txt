@@ -1,0 +1,23 @@
+1.First install two packages that are speechrecognition and pyaudio by using the command:-
+  "pip install speechrecognition pyaudio"
+
+2.Now install setuptools:-
+  "pip install setuptools"
+
+3.Now install text to speech library:-
+  "pip install pyttsx3"
+
+Not necessary but if we want to use sphinx instead of google then we have to
+4.Now install pocketsphinx for offline speech recognition:-
+  "pip install pocketsphinx"
+
+Note:- All above libraries will be installed in virtual environment i.e.(.venv file)
+
+To start speech recognition library use:-
+  ".\venv\Scripts\activate"
+
+Note:-
+  For requirements file:-
+    "pip freeze > requirements.txt"
+  To install the requirements from requirements.txt:-
+    "pip install -r requirements.txt"
